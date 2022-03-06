@@ -2,16 +2,23 @@
 2. npm install @biconomy/mexa
 
 Please change to your own values
+
 example/react-ui/src/config.js - address and ABI of LaLuka contract
+
 example/react-ui/src/components/Web3_EIP2771_EIP712Sign.js:
+
 21: address and ABI of LaLuka contract
+
 24: Biconomy apiKey from Biconomy Dashboard
+
 166: address of token's reciever
 
 Connect metamask with Laluka token's owner wallet. In our case 0x46e68065eD9729F021e55f527Ee5bdb844501b42
+
 Choose Kovan network
 
 Start app: yarn start
+
 After launching the application, select on the left "Web3 + EIP2771 + EIP712Sign" # (Third item from the top)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
